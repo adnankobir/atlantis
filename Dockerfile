@@ -173,7 +173,11 @@ RUN apk add --no-cache \
         openssh~=9 \
         dumb-init~=1 \
         gcompat~=1 \
-        coreutils-env~=9
+        coreutils-env~=9 \
+        python3 \
+        py3-yaml \
+        jq \
+        zip
 
 # Set the entry point to the atlantis user and run the atlantis command
 USER atlantis
